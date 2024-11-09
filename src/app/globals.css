@@ -60,12 +60,12 @@ overflow-y: auto;
   text-align: center;
 }
 .header h1 {
-  font-size: 28px; /* Adjusted for mobile */
+  font-size: 28px; 
   position: absolute;
   color: #e7e5e5;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: -9px 0px 0px 20px; /* Adjusted margin for mobile */
+  margin: -9px 0px 0px 20px; 
 }
 .nav-buttons{
   display: flex;
@@ -141,30 +141,30 @@ border-bottom: 2px sandybrown;
 
 .education-section {
   font-family: Arial, sans-serif;
-  max-width: 500px; /* Adjusted width for mobile */
+  max-width: 500px; 
   margin: auto;
 }
 
 h2 {
-  font-size: 28px; /* Adjusted font size for mobile */
+  font-size: 28px; 
   color: #e4cd00;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .education-item {
-  margin-bottom: 15px; /* Reduced margin for mobile */
+  margin-bottom: 15px; 
   text-align: center;
 }
 
 .education-item h3 {
-  font-size: 20px; /* Adjusted font size for mobile */
+  font-size: 20px; 
   color: #e4cd00;
   margin-bottom: 5px;
 }
 
 .education-item p {
-  font-size: 16px; /* Adjusted font size for mobile */
+  font-size: 16px; 
   color: #d3d2d2;
   margin: 0;
 }
@@ -209,18 +209,18 @@ font-size: 28px;
 
 .contact-us .intro,
 .contact-us .outro {
-  font-size: 16px; /* Adjusted font size for mobile */
+  font-size: 16px; 
   margin: 20px 0px;
   color: #ffffff;
-  width: 100%; /* Adjusted width for mobile */
-  text-align: center; /* Centered text for mobile */
+  width: 100%; 
+  text-align: center; 
 }
 
 .contact-details {
   margin: 20px 0px;
-  font-size: 15px; /* Adjusted font size for mobile */
+  font-size: 15px; 
   color: #ffffff;
-  text-align: center; /* Centered text for mobile */
+  text-align: center; 
 }
 
 .contact-details p {

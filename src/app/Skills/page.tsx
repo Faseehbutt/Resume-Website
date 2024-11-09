@@ -60,8 +60,6 @@ export default function skills(){
                 height={100}
                 quality={100}
             />
-            <h1></h1>
-            <p></p>
             </div>
         </div>
     )

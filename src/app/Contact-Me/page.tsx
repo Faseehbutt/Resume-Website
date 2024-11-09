@@ -6,7 +6,7 @@ export default function Contact(){
             <br />
             <h1>Contact Me</h1>
           <p className="intro">
-      Thank you for visiting my page! If you have any questions, project ideas, or simply want to connect, feel free to reach out using the contact information below. I’m always open to new opportunities and collaborations.
+      Thank you for visiting my page! If you have any questions, project ideas, or simply want to connect, feel free to reach out using the contact information below. I&apos;m always open to new opportunities and collaborations.
     </p>
     
     <div className="contact-details">

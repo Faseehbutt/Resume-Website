@@ -5,7 +5,7 @@ export default function Header() {
     const pathname = usePathname();
     return (
         <div className="header">    
-                <h1>Faseeh's Portfolio</h1>
+                <h1>Faseeh&apos;s Portfolio</h1>
             <ul className="nav-buttons">
             <Link href="/" className={`nav-link ${pathname === '/' ? 'active' : ''}`}>
                 <li>Home</li>

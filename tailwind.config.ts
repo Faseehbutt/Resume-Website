@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'xs':{'max': '552px'}// Custom breakpoint for screens 480px and above
+      },
     },
   },
+
   plugins: [],
 };
 export default config;

@@ -1,6 +1,6 @@
 "use client"
-
 import Image from "next/image"
+import Link from "next/link"
 export default function Homepage(){
   return (
     <div>
@@ -13,15 +13,15 @@ export default function Homepage(){
                 quality={100}
             />
       <div className="bodytext">
-        
+        <div>
     <h1><span>Hi,</span> My name is Mohammad Faseeh,</h1>
     <p>I am a resume builder</p>
-    <a href="/resume.pdf" download="My Resume"> 
-    <button>Download Now</button>
-    </a>
+    <Link href="/resume-generator">
+    <button>Lets Go!</button>
+    </Link>
+    </div>
     </div>
 </div>
-
 </div>
   )
 }

@@ -30,7 +30,7 @@ export default function ResumeForm({
   const [formData, setFormData] = useState<ResumeData>(initialData || emptyData);
   const [currentStep, setCurrentStep] = useState(0);
 
-  const updateFormData = (section: keyof ResumeData, data: any) => {
+  const updateFormData = (section: keyof ResumeData, data: unknown) => {
     setFormData(prev => ({
       ...prev,
       [section]: data
